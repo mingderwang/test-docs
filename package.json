@@ -1,0 +1,18 @@
+{
+  "name": "test-docs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs": "npx typedoc src/index.ts",
+    "showdocs": "npx http-server ./docs"
+  },
+  "devDependencies": {
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
