@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs": "npx typedoc src/index.ts",
-    "showdocs": "npx http-server ./docs"
+    "docs": "npx typedoc",
+    "show:docs": "npx http-server ./docs"
   },
   "devDependencies": {
   },
